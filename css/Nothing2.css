@@ -93,6 +93,8 @@ div[class*="topSection"]::before {
 
 .guilds .friends-icon:hover{background-color: transparent !important;}
 
+.guilds-wrapper .guilds{padding: 2px 0px 200px 14px !important;}
+
 .theme-dark .guilds-wrapper::after{content: "";width: 76px;height: 74px;bottom: 0px;margin-bottom: -204px;}
 
 .theme-dark .guilds-wrapper::before{content: "";background: rgba(0,0,0,0.75);width: 76px;height: 74px;bottom: 0px;position: fixed;}
@@ -133,7 +135,7 @@ span.spinner{margin-top: 2px;}
 
 [class*="nameDefault-"]{color: #ffffff;}
 
-.theme-dark .search .search-bar{background-color: rgba(0,0,0,0.3);border: 1px solid var(--mc)!important;}
+.theme-dark .search .search-bar{background-color: rgba(0,0,0,0.3);border: 1px solid var(--hc)!important;}
 
 .chat .empty-message h1{color: #f1f1f1;}
 
